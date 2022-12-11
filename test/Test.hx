@@ -5,6 +5,6 @@ class Test
     static function main()
     {
         trace('Hello World');
-        trace(WasteOfHaxe.test());
+        trace(WasteOfHaxe.getUser('8bit'));
     }
 }
