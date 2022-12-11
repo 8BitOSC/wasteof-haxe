@@ -17,7 +17,11 @@ class WasteOfHaxe2 {
         return makeRequest('users/$user');
     }
 
-    public static function getPosts(user:String,page:Int = 1):User {
-      return makeRequest('users/$user/posts?page=$page');
+    public static function getPosts(user:String,page:Int = 1):UserPostList {
+      var req:Dynamic = makeRequest('users/$user/posts?page=$page');
+      if(req.pinned.length > 0){
+        req.pinned = req.pinned[0];
+      }
+      return req;
   }
 }

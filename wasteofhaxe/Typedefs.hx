@@ -53,4 +53,11 @@ typedef Post = {
     var comments:Int;
     var loves:Int;
     var reposts:Int;
+    var pinned:Null<Bool>;
+}
+
+typedef UserPostList = {
+    var posts:Array<Post>;
+    var pinned:Post; // thats right.
+    var last:Bool;
 }
