@@ -1,0 +1,10 @@
+{
+	"name": "wasteof-haxe",
+	"url": "https://github.com/8bitjake/wasteof.haxe",
+	"license": "",
+	"tags": ["wasteof.money"],
+	"description": "haxe library for interacting with the wasteof.money api",
+	"version": "0.0.1 (alpha)",
+	"releasenote": "",
+	"contributors": ["8BitJake"]
+}
