@@ -1,3 +1,4 @@
+-lib wasteofhaxe
 -main Test.hx
 -cpp cpp
 -cp ../../
