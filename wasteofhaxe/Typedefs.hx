@@ -29,7 +29,7 @@ typedef User = {
     var beta:Bool;
     var links:Array<UserLink>;
     var history:UserHistory;
-    var stats:UserStats;
+    var stats:Null<UserStats>;
     var online:Bool;
 }
 
@@ -59,5 +59,15 @@ typedef Post = {
 typedef UserPostList = {
     var posts:Array<Post>;
     var pinned:Post; // thats right.
+    var last:Bool;
+}
+
+typedef FollowingList = {
+    var following:Array<User>;
+    var last:Bool;
+}
+
+typedef FollowersList = {
+    var followers:Array<User>;
     var last:Bool;
 }

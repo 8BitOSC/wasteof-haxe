@@ -1,10 +1,13 @@
 {
-	"name": "wasteofhaxe",
-	"url": "https://github.com/8bitjake/wasteof-haxe",
-	"license": "Public",
-	"tags": ["wasteof.money"],
-	"description": "haxe library for interacting with the wasteof.money api",
-	"version": "0.0.1",
-	"releasenote": "",
-	"contributors": ["8BitJake"]
+    "name": "wasteofhaxe",
+    "url": "https://github.com/8bitjake/wasteof-haxe",
+    "license": "Public",
+    "tags": ["wasteof.money"],
+    "description": "haxe library for interacting with the wasteof.money api",
+    "version": "0.0.1",
+    "releasenote": "",
+    "contributors": ["8BitJake"],
+    "dependencies": {
+        "openfl": ""
+    }
 }
