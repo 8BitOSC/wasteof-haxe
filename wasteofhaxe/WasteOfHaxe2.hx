@@ -15,7 +15,6 @@ class WasteOfHaxe2 {
 	public static var apiUrl:String = 'https://api.wasteof.money/';
 
 	private static function makeRequest(url:String = '', isJson:Bool = true):Dynamic {
-		trace(apiUrl + url);
 		var h:Http = new Http(apiUrl + url);
 		h.setHeader("User-Agent", "request");
 		var r:Null<Dynamic> = null;
