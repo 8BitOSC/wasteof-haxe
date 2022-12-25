@@ -71,3 +71,18 @@ typedef FollowersList = {
     var followers:Array<User>;
     var last:Bool;
 }
+
+typedef Comment = {
+    var _id:String;
+    var post:String;
+    var poster:Poster;
+    var parent:Null<String>;
+    var content:String;
+    var time:Int;
+    var hasReplies:Bool;
+}
+
+typedef CommentList = {
+    var comments:Array<Comment>;
+    var last:Bool;
+}
